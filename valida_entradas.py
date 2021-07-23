@@ -21,7 +21,6 @@ def valida_numero_de_jogadores(nomes):
         return True
 
 def letra_ou_palavra(entrada):
-    list(entrada)
     if(len(entrada) > 1):
         return ("palavra")
     elif(len(entrada) == 1):

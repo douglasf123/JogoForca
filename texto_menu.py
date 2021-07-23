@@ -23,6 +23,7 @@ def partida_iniciada():
     print("Digite os nomes dos jogadores separados por (,)\n")
     return (True)
 
-def tela_jogo(tema,total_letras,erros,letras_digitadas):
+def tela_jogo(tema,total_letras,erros,letras_digitadas,forca):
     print("Descubra a palavra\n\nTema: ",tema,"\tTotal de letras: ", total_letras,"\tErrou:",erros)
+    print("\n\n",forca)
     print("\n\n Letras Digitadas: ",letras_digitadas)
